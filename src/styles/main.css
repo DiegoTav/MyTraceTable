@@ -1,0 +1,34 @@
+.main {
+    background-color: #66CEA4;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.btn-principais {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+.btn-principais a {
+    width: 345px;
+    height: 90px;
+    background-color: #07433C;
+    border-radius: 80px;
+
+}
+
+.btn-principais a button {
+    width: 100%;
+    height: 100%;
+    background-color: transparent;
+    border: none;
+    font-size: 35px;
+    color: #fff;
+    text-transform: uppercase;
+    cursor: pointer;
+}
